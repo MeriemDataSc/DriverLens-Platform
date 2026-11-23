@@ -1,0 +1,9 @@
+# Core
+pandas>=2.0
+openpyxl>=3.1          # reading .xlsx comment exports
+flask>=3.0             # web dashboard (app.py)
+
+# LLM back-end (Google Gemini / Gemma via Google AI Studio)
+# Needs a recent release that supports types.ThinkingConfig(thinking_level=...).
+# Not required for `python main.py --dry-run` or `python app.py --mock`.
+google-genai
